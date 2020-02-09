@@ -115,6 +115,25 @@ a:hover {
   text-align: justify;
 }
 
+/* Figures */
+
+.figure {
+/*   border: 1px solid green; Uncomment for debugging */
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+.figure img {
+  margin: auto;
+  display: block;
+}
+
+.figure .caption {
+  font-style: italic;
+/*   font-variant: small-caps; */
+}
+
 @media (min-width: 576px) {
   .header .title {
     font-size: 3rem;
