@@ -1,6 +1,9 @@
 :root {
     --alchemy-border: rgba(0,0,0,.1);
+    --link-color-hover-focus: #d93200;
+    --link-color: #333;
 }
+
 ::selection {
   background: var(--primary);
   color: var(--secondary);
@@ -88,6 +91,24 @@ hr {
 
 .article .content a {
   text-decoration: underline
+}
+
+a {
+  color: var(--link-color);
+}
+
+a:focus,
+a:hover {
+  color: var(--link-color-hover-focus);
+}
+
+.page-link {
+  color: var(--link-color);
+}
+
+.page-link:focus,
+.page-link:hover {
+  color: var(--link-color-hover-focus);
 }
 
 @media (min-width: 576px) {
