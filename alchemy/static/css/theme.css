@@ -111,6 +111,10 @@ a:hover {
   color: var(--link-color-hover-focus);
 }
 
+.article .content p {
+  text-align: justify;
+}
+
 @media (min-width: 576px) {
   .header .title {
     font-size: 3rem;
