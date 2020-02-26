@@ -127,6 +127,9 @@ a:hover {
 .figure img {
   margin: auto;
   display: block;
+  /* For responsive-ness of figures. */
+  max-width: 100%;
+  height: auto;
 }
 
 .figure .caption {
